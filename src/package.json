@@ -1,0 +1,21 @@
+{
+  "name": "angular-semantic-dropdown",
+  "version": "0.0.1",
+  "description": "AngularJS wrapper around the semantic-ui dropdown",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sohape/angular-semantic-dropdown.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "semantic",
+    "semantic-ui",
+    "dropdown"
+  ],
+  "author": "Søren Pedersen <sh.pedersen@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Sohape/angular-semantic-dropdown/issues"
+  },
+  "homepage": "https://github.com/Sohape/angular-semantic-dropdown"
+}
