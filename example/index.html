@@ -3,12 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Example using semantic-ui dropdown wrapper</title>
-    <link href="../src/bower_components/semantic/dist/components/dropdown.min.css" />
-    <script type="application/javascript" src="../src/bower_components/angular/angular.min.js" />
-    <script type="application/javascript" src="../src/bower_components/jquery/dist/jquery.min.js" />
-    <script type="application/javascript" src="../src/bower_components/semantic/dist/components/dropdown.min.js" />
+    <link href="../src/bower_components/semantic/dist/semantic.css" type="text/css" rel="stylesheet" />
+    <script type="application/javascript" src="../src/bower_components/angular/angular.js"></script>
+    <script type="application/javascript" src="../src/bower_components/jquery/dist/jquery.js"></script>
+    <script type="application/javascript" src="../src/bower_components/semantic/dist/semantic.js"></script>
+    <script type="application/javascript" src="../src/angular-semantic-dropdown.js"></script>
+    <script type="application/javascript" src="myApp.js"></script>
 </head>
-<body ng-app="myApp">
-
+<body ng-app="myApp" ng-controller="MyController">
+    <semantic-dropdown selected-id="selectedId" placeholder="Please select..." values="values"></semantic-dropdown>
+    <br/>
+    Selected id: {{selectedId}}
 </body>
 </html>
