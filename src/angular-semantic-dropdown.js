@@ -7,7 +7,8 @@ angular.module("semanticDropdown", [])
             scope: {
                 values: '=',
                 selectedId: '=',
-                placeholder: '@'
+                placeholder: '@',
+                class: '@'
             },
             link: function(scope, element) {
                 $(element).dropdown({
@@ -19,7 +20,7 @@ angular.module("semanticDropdown", [])
                 });
             },
             template:
-                '<div class="ui search selection dropdown">' +
+                '<div class="ui selection dropdown {{class}}">' +
                     '<input type="hidden" name="id">' +
                     '<i class="dropdown icon"></i>' +
                     '<div class="default text">{{placeholder}}</div>' +
